@@ -1,0 +1,4 @@
+.scala_dependencies
+.idea
+target
+*.iml
