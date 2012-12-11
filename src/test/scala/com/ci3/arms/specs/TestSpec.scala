@@ -12,7 +12,7 @@ class TestSpec extends FlatSpec with ShouldMatchers with HtmlUnit {
 
   "The Google home page" should "have the correct title" in {
     go to ("http://google.com")
-    pageTitle should be ("Google")
+    pageTitle should be("Google")
   }
 
   "A Stack" should "pop values in last-in-first-out order" in {
