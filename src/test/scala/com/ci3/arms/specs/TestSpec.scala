@@ -10,7 +10,7 @@ import org.scalatest.selenium.HtmlUnit
 @RunWith(classOf[JUnitRunner])
 class TestSpec extends FlatSpec with ShouldMatchers with HtmlUnit {
 
-  "The blog app home page" should "have the correct title" in {
+  "The Google home page" should "have the correct title" in {
     go to ("http://google.com")
     pageTitle should be ("Google")
   }
